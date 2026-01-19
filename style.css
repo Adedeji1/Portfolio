@@ -21,7 +21,7 @@ a {
   color: inherit;
 }
 
-/* ===== NAVBAR ===== */
+/*  NAVBAR  */
 .header {
   background: #111;
   color: #fff;
@@ -43,7 +43,7 @@ a {
   color: #fff;
 }
 
-/* ===== HERO ===== */
+/*  HERO  */
 .hero {
   display: flex;
   align-items: center;
@@ -65,7 +65,7 @@ a {
   padding: 0.7rem 1.5rem;
 }
 
-/* ===== CONTACT ===== */
+/*  CONTACT  */
 .contact form {
   display: flex;
   flex-direction: column;
@@ -78,7 +78,7 @@ textarea {
   width: 100%;
 }
 
-/* ===== PROJECTS ===== */
+/*  PROJECTS  */
 .projects-grid {
   display: flex;
   gap: 1.5rem;
