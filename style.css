@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== NAVBAR ===== */
+.header {
+  background: #111;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+/* ===== HERO ===== */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem 0;
+}
+
+.hero img {
+  max-width: 300px;
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #111;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+}
+
+/* ===== CONTACT ===== */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+/* ===== PROJECTS ===== */
+.projects-grid {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  flex: 1;
+}
+
+/*  FOOTER  */
+.footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/*  RESPONSIVE  */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .projects-grid {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

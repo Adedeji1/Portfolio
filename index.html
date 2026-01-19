@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+  <header class="header">
+    <nav class="nav container">
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-text">
+        <h2>Hi, I'm a Frontend Developer</h2>
+        <p>I build clean, responsive websites using HTML, CSS, and JavaScript.</p>
+        <a href="projects.html" class="btn">View My Work</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/profile.jpg" alt="Profile photo of the developer" />
+      </div>
+    </section>
+
+    <section class="contact container">
+      <h2>Contact Me</h2>
+      <form>
+        <label>
+          Name
+          <input type="text" placeholder="Your Name" />
+        </label>
+
+        <label>
+          Email
+          <input type="email" placeholder="Your Email" />
+        </label>
+
+        <label>
+          Message
+          <textarea placeholder="Your Message"></textarea>
+        </label>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 MyPortfolio. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
